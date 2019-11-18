@@ -48,8 +48,8 @@ def DecisionTreeTest(dataset):
     print(ac)
     
 if __name__ == '__main__':
-    dataset = data.byte_analysis_dataset()
-    NNTest(dataset)
-    SVMTest(dataset)
-    DecisionTreeTest(dataset)
+    dataset = data.byte_analysis_dataset('data.json')
+    #NNTest(dataset)
+    #SVMTest(dataset)
+    #DecisionTreeTest(dataset)
 
